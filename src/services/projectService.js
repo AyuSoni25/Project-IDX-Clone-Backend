@@ -2,7 +2,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import fs from 'fs/promises';
 import { execUtility } from '../utils/execUtility.js';
-import directoryTree from 'directory-tree/index.js';
+import directoryTree from 'directory-tree';
 import path from 'path';
 
 export const createProjectService = async(req, res) => {
